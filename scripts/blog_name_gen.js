@@ -1,6 +1,6 @@
 
 console.log("generating name")
-names = ["tiredness", "possibilites", "realities", "abstractionism"]
+names = ["tiredness", "possibilites", "realities", "abstraction"]
 choice1 = Math.random() * names.length()
 choice2 = Math.random() * names.length()
 title = "ramblings of " + names[choice1] + " and " + names[choice2]
