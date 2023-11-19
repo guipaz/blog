@@ -1,8 +1,6 @@
-remote_theme: minima
+theme: minima
 title: ramblings of tiredness and abstraction
+twitter_username: onwardsgames
 description: onwards is a tiny game development studio based in brazil
 minima:
   skin: dark
-  social_links:
-    - { platform: twitter,  user_url: "https://twitter.com/onwardsgames" }
-    - { platform: twitter,  user_url: "https://twitter.com/itsaoshima" }
