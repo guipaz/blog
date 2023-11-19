@@ -1,4 +1,5 @@
 theme: minima
-title: ramblings of a tired person; onwards!
-author: aoshima
+title: ramblings of tiredness
 description: onwards is a tiny game development studio based in brazil
+minima:
+  skin: dark
