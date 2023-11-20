@@ -1,14 +1,5 @@
 <header class="site-header" role="banner">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RBRJL38HZL"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-RBRJL38HZL');
-    </script>
-
+    
     <div class="wrapper">
       {%- assign pages = site.pags | where_exp: 'item', 'item.title != "404"' -%}
       {%- assign default_paths = site.pages | map: "path" -%}
