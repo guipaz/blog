@@ -6,4 +6,4 @@ hi! i'm _aoshima_, a gamedev from brazil, and _onwards!_ is my tiny studio.
 i make [games](games.html) and [blog](blog.html) about it
 
 you can socially reach me [@itsaoshima](https://twitter.com/aoshimaon){:target="_blank"} and [@onwardsgames](https://twitter.com/onwardsgames){:target="_blank"}<br>
-or drop an electronic mail to [aoshima@onwardsgames.com](mailto:aoshima@onwardsgames.com){:target="_blank"}
+or drop an electronic mail to [aoshima@onwards.games](mailto:aoshima@onwards.games){:target="_blank"}
