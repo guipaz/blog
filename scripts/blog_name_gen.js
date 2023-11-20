@@ -1,7 +1,7 @@
 $(document).ready(function() {
     console.log("generating title")
     
-    names = ["tiredness", "possibilities", "realities", "abstraction", "abstractions", "lust", "envy", "gluttony", "code", "lasagnas", "joints", "sadness", "wonder", "worlds", "universes", "kings", "kingdoms", "queens", "Queen", "Qud", "dwarves", "fortresses"]
+    names = ["tiredness", "possibilities", "realities", "abstraction", "abstractions", "lust", "envy", "gluttony", "code", "lasagnas", "joints", "sadness", "wonder", "worlds", "universes", "kings", "kingdoms", "queens", "generation", "titles", "dwarves", "fortresses", "melancholy"]
     
     choice1 = Math.floor(Math.random()*names.length)
     choice2 = Math.floor(Math.random()*names.length)
