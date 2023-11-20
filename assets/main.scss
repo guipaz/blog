@@ -8,3 +8,25 @@ $on-palm:          700px !default;
 $on-laptop:        900px !default;
 
 @import "minima";
+
+.comment-input {
+    background:#ffffff;
+    font-size:15px;
+    padding:12px;
+    border:1px solid #e3e3e3;
+    -webkit-flex:1 0 auto;
+    -ms-flex:1 0 auto;
+    flex:1 0 auto;
+    line-height:1.4;
+    margin:0;
+    -webkit-transition:border-color ease-out 300ms;
+    transition:border-color ease-out 300ms;
+}
+
+.comment-button {
+    color: #fff;
+    background-color: #1677be;
+    border-radius: 4px;
+    font-weight: 400;
+    flex: 1 1 auto;
+}

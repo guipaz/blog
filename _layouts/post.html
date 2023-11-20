@@ -55,10 +55,11 @@ comments: true
     <input name="options[slug]" type="hidden" value="{{ page.slug }}">
     <h4>Comment!</h4>
     <!-- and finally the user visible fields -->
-    <p><label>Name: <input type="text" name="fields[name]" /></label></p>
-    <p><label>E-mail: <input type="text" name="fields[email]" /></label></p>
-    <p><label>Comment: <input type="text" name="fields[message]" /></label></p>
-    <p><button type="submit">Submit</button></p>
+    <p><label>Name: <input class="comment-input" type="text" name="fields[name]" /></label></p>
+    <p><label>E-mail: <input class="comment-input" type="text" name="fields[email]" /></label></p>
+    <p><label>Comment: <input class="comment-input" type="text" name="fields[message]" /></label></p>
+    <sub>Note: Comments take a few minutes to go online</sub>
+    <p><button class="comment-button" type="submit">Submit</button></p>
   </form>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
