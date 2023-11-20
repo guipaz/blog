@@ -23,7 +23,7 @@ comments: true
   <br><hr><br>
 
   <div>
-    {% assign comments = site.data.comments | where:'slug',page.slug %}
+    {% assign comments = site.data.comments | where:'url',page.slug %}
     {% assign commentsCount = comments | size %}
 
     <h3>Comments
@@ -53,6 +53,7 @@ comments: true
     action="https://onwards-games-staticman-5843657dd789.herokuapp.com/v3/entry/github/guipaz/guipaz.github.io/main/comments">
     <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}">
     <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+    <input name="fields[url]" type="hidden" value="{{ page.slug }}">
     <h4>Comment!</h4>
     <!-- and finally the user visible fields -->
     <p><label>Name: <input class="comment-input" type="text" name="fields[name]" /></label></p>
