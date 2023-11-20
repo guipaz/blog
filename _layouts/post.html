@@ -23,7 +23,8 @@ comments: true
   <br><hr><br>
 
   <div>
-    {% assign comments = site.data.comments[page.slug] %}
+    {% assign commentField = 'site.data.comments.' | append: page.slug }
+    {% assign comments = {{ commentField }} %}
     {% assign commentsCount = comments | size %}
 
     <h3>Comments
