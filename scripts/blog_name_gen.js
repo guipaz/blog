@@ -1,6 +1,6 @@
 $(document).ready(function() {
     console.log("generating name")
-    names = ["tiredness", "possibilities", "realities", "abstraction", "lust", "envy", "gluttony", "code", "lasagnas", "joints", "sadness", "wonder", ""]
+    names = ["tiredness", "possibilities", "realities", "abstraction", "lust", "envy", "gluttony", "code", "lasagnas", "joints", "sadness", "wonder", "worlds", "universes", "kings", "kingdoms"]
     choice1 = Math.floor(Math.random()*names.length)
     choice2 = Math.floor(Math.random()*names.length)
     title = "ramblings of " + names[choice1] + " and " + names[choice2]
