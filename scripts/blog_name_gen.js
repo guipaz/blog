@@ -5,8 +5,7 @@ $(document).ready(function() {
     choice2 = Math.floor(Math.random()*names.length)
     title = "ramblings of " + names[choice1] + " and " + names[choice2]
 
-    $("#blog-title").html(title)
-    document.title = title
-
-    console.log(title)
+    $("#blog-title-header").html(title)
+    $("#blog-title-footer").html(title)
+    document.title = title + " - onwards!"
 });

@@ -4,7 +4,7 @@
       {%- assign pages = site.pags | where_exp: 'item', 'item.title != "404"' -%}
       {%- assign default_paths = site.pages | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
-      <a id="blog-title" class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      <a id="blog-title-header" class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
   
       <!-- {%- if page_paths -%}
         <nav class="site-nav">

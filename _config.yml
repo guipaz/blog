@@ -1,9 +1,8 @@
 theme: minima
 title: ramblings of tiredness and abstraction
 twitter_username: onwardsgames
-author: aoshima
 email: aoshima@onwards.games
-rss: true
+rss: rss feed
 
 description: onwards is a tiny game development studio based in brazil
 minima:
