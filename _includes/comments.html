@@ -17,6 +17,8 @@
       {% include comment.html is_reply=false uid=uid replying_to=0 email=email name=name url=url date=date message=message uid=uid %}
       {% endfor %}
     </div>
+    {% else %}
+    <p>No comments.</p>
     {% endif %}
   
     {% if page.lock_comments != true %}
@@ -28,7 +30,7 @@
   </section>
   
   {% if page.lock_comments != true %}
-  <script src="{{ '/assets/comments.js' | relative_url }}"></script>
+  <script src="{{ '/assets/scripts/comments.js' | relative_url }}"></script>
   {% if site.reCaptcha.enabled %}
   <script src="https://www.google.com/recaptcha/api.js"></script>
   {% endif %}

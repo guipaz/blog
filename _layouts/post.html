@@ -20,68 +20,6 @@ comments: true
     {{ content }}
   </div>
 
-  <br><hr><br>
-
-  <!-- <div>
-    {% assign comments = site.data.comments[page.slug] %}
-    {% assign commentsCount = comments | size %}
-
-    <h3>Comments</h3>
-      {% if commentsCount > 0 %}
-        <ul>
-          {% for comment in comments %}
-          <li>
-            <p><b>{{ comment.name | escape  }}</b> on <i>{{ comment.date | date: '%Y.%m.%d' }}</i></p>
-            {% if comment.message %}
-            <p>
-              {{comment.message | escape }}
-            </p>
-            {% endif %}
-          </li>
-          {% endfor %}
-        </ul>
-      {% else %}
-      <p>No comments.</p>
-      {% endif %}
-  </div>
-
-  <br><hr><br> -->
-
-  <!-- <form method="POST"
-    action="https://onwards-games-staticman-5843657dd789.herokuapp.com/v3/entry/github/guipaz/guipaz.github.io/main/comments">
-    <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}">
-    <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-    <input name="fields[url]" type="hidden" value="{{ page.slug }}">
-    <h4>Comment!</h4>
-    <p><label>Name: <input class="comment-input" type="text" name="fields[name]" /></label></p>
-    <p><label>E-mail: <input class="comment-input" type="text" name="fields[email]" /></label></p>
-    <p><label>Comment: <input class="comment-input" type="text" name="fields[message]" /></label></p>
-    <sub>Note: Comments take a few minutes to go online</sub>
-    <p><button class="comment-button" type="submit">Submit</button></p>
-  </form> -->
-
-  <!-- <h4>Feel free to drop a comment:</h4>
-  <form action="https://onwards-games-staticman-5843657dd789.herokuapp.com/v3/entry/github/guipaz/guipaz.github.io/main/comments">
-    <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}">
-    <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-    <input name="fields[url]" type="hidden" value="{{ page.slug }}">
-    <div class="form-group">
-      <label for="comment-name">Your Name</label>
-      <input type="text" class="form-control" id="comment-name" placeholder="Your name" name="fields[name]">
-    </div>
-    <div class="form-group">
-      <label for="comment-email">Your E-mail</label>
-      <input type="email" class="form-control" id="comment-email" aria-describedby="comment-email-help" placeholder="your@email.com" name="fields[email]">
-      <small id="comment-email-help" class="form-text text-muted">Your e-mail won't be visible.</small>
-    </div>
-    <div class="form-group">
-      <label for="comment-message">Comment</label>
-      <textarea class="form-control" id="comment-message" rows="3" placeholder="Your comment" name="fields[message]"></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-    <sub>Note: Comments will take a few minutes to go online</sub>
-  </form> -->
-
   {% include comments.html %}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
