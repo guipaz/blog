@@ -23,11 +23,10 @@ comments: true
   <br><hr><br>
 
   <div>
-    {% assign commentField = 'site.data.comments.' | append: page.slug }
-    {% assign comments = {{ commentField }} %}
+    {% assign comments = site.data.comments[page.slug] %}
     {% assign commentsCount = comments | size %}
 
-    <h3>Comments
+    <h3>Comments</h3>
       {% if commentsCount > 0 %}
         <ul>
           {% for comment in comments %}
@@ -44,7 +43,6 @@ comments: true
       {% else %}
       <p>No comments.</p>
       {% endif %}
-    </h3>
   </div>
 
   <br><hr><br>
@@ -62,36 +60,29 @@ comments: true
     <p><button class="comment-button" type="submit">Submit</button></p>
   </form> -->
 
-  <div data-v-41e980de="" class="formkit-outer" data-family="text" data-type="text" data-empty="true" data-invalid="true">
-    <div class="formkit-wrapper">
-      <div class="formkit-inner">
-        <input placeholder="Your name" class="formkit-input" type="text" name="Name" id="input_0" aria-describedby="input_0-rule_required">
-      </div>
+  <!-- <h4>Feel free to drop a comment:</h4>
+  <form action="https://onwards-games-staticman-5843657dd789.herokuapp.com/v3/entry/github/guipaz/guipaz.github.io/main/comments">
+    <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}">
+    <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+    <input name="fields[url]" type="hidden" value="{{ page.slug }}">
+    <div class="form-group">
+      <label for="comment-name">Your Name</label>
+      <input type="text" class="form-control" id="comment-name" placeholder="Your name" name="fields[name]">
     </div>
-    <ul class="formkit-messages">
-      <li class="formkit-message" id="input_0-rule_required" data-message-type="validation">Name is required.</li>
-    </ul>
-  </div>
-  <div data-v-41e980de="" class="formkit-outer" data-family="text" data-type="email" data-empty="true" data-invalid="true">
-    <div class="formkit-wrapper">
-      <div class="formkit-inner">
-        <input placeholder="your@email.com" class="formkit-input" type="email" name="E-mail" id="input_1" aria-describedby="input_1-rule_required">
-      </div>
+    <div class="form-group">
+      <label for="comment-email">Your E-mail</label>
+      <input type="email" class="form-control" id="comment-email" aria-describedby="comment-email-help" placeholder="your@email.com" name="fields[email]">
+      <small id="comment-email-help" class="form-text text-muted">Your e-mail won't be visible.</small>
     </div>
-    <ul class="formkit-messages">
-      <li class="formkit-message" id="input_1-rule_required" data-message-type="validation">E-mail is required.</li>
-    </ul>
-  </div>
-  <div data-v-41e980de="" class="formkit-outer" data-type="textarea" data-empty="true" data-invalid="true">
-    <div class="formkit-wrapper">
-      <div class="formkit-inner">
-        <textarea placeholder="Your comment" class="formkit-input" name="Message" id="input_2" aria-describedby="input_2-rule_required"></textarea>
-      </div>
+    <div class="form-group">
+      <label for="comment-message">Comment</label>
+      <textarea class="form-control" id="comment-message" rows="3" placeholder="Your comment" name="fields[message]"></textarea>
     </div>
-    <ul class="formkit-messages">
-      <li class="formkit-message" id="input_2-rule_required" data-message-type="validation">Message is required.</li>
-    </ul>
-  </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <sub>Note: Comments will take a few minutes to go online</sub>
+  </form> -->
+
+  {% include comments.html %}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
