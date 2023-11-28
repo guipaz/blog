@@ -10,3 +10,8 @@ $on-laptop:        900px !default;
 @import "classic-vars";
 @import "minima";
 @import "comment-styles";
+
+hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
