@@ -61,4 +61,4 @@ And finishing with the implementation of a dual grid system to render complex te
 
 ---
 
-If you ever wonder, I changed the theme of the game between the start and end of thing post. Bye!
+If you ever wonder, I changed the theme of the game between the day I started and ended the writing of this post. Bye!
