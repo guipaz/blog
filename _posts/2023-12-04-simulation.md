@@ -39,7 +39,7 @@ All this seemingly grim story is to say that shit happens regardless of yourself
 > "Not knowing stuff is hard"  
 > Me, 2023.
 
-Working chaotically and experimentally is _figuratively_ making me die inside a little bit, I assume, but in a controlled manner. __Learning is difficult__, and it feels like it gets more difficult as you age. Even so, I'm looking forward for my next years of learning and exploration.  
+Working chaotically and experimentally is _figuratively_ making me die inside a little bit, I admit, but in a controlled manner. __Learning is difficult__, and it feels like it gets more difficult as you age. Even so, I'm looking forward for my next years of learning and exploration.  
 
 ### Images
 
