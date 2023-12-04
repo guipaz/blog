@@ -1,4 +1,5 @@
 ---
+permalink: /stuff.html
 ---
 
 <h4>games</h4>
