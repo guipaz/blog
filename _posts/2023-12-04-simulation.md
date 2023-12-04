@@ -22,7 +22,7 @@ However, __I want to experiment__. Having a lot of systems working all at once i
 
 I feel that's a __mistake__.
 
-Before you <strike>know</strike> think I'm an anarchist that worships chaos, I still think structure is vital; just not when you're trying to figure things out. I spent so much time doing what I knew that it led me to... well, here. I _make games_™ since 2015 and have released [one little selfjam game]({{ link /stuff.html }}). I've got comfortable with the hobby of creating a project and messing with it until I forgot it existed. I kept doing the stuff I knew.
+Before you <strike>know</strike> think I'm an anarchist that worships chaos, I still think structure is vital; just not when you're trying to figure things out. I spent so much time doing what I knew that it led me to... well, here. I _make games_™ since 2015 and have released [one little selfjam game]({% link /stuff.html %}). I've got comfortable with the hobby of creating a project and messing with it until I forgot it existed. I kept doing the stuff I knew.
 
 ### A little (too) personal story
 
