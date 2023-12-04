@@ -34,12 +34,12 @@ January 4th, 2016. I'm at a hospital bed and my dad comes to talk to me. His fac
 
 The next months weren't the easier of my life if I'm being honest. Brazil's public healthcare is not ideal, even though SUS (Health Unic System, in a free translation) still holds things together against the insanity that is the absence of public healthcare in countries such as United States. The main issue here is having exams in plausible time; when you're talking about cancer, the early you discover it the better. I had health insurance because of my job and, frankly? That's why I'm here. I had leukemia or 'blood cancer', and I could start bleeding internally had I not discovered it in that precise time.
 
-All this seemingly grim story is to say that shit happens regardless of yourself and that all you can do is your best with what you can at the moment. And I think I can handle the discomfort of being purposefully chaotic in the hopes I learn with it. This is me being positive.
+All this seemingly grim story is to say that shit happens regardless of yourself and that all you can do is your best with what you can at the moment. And I think that, after much time of physical and mental treatment, I'm ready to handle the discomfort of being purposefully chaotic in the hopes I learn with it. _<sub>PS: This is me being positive.</sub>_
 
 > "Not knowing stuff is hard"  
 > Me, 2023.
 
-I am dying inside a little bit, yes, but in a controlled manner. __Learning is difficult__, and it feels like it gets more difficult as you age. Even so, I'm looking forward for my next years of learning and exploration.  
+Working chaotically and experimentally is _figuratively_ making me die inside a little bit, I assume, but in a controlled manner. __Learning is difficult__, and it feels like it gets more difficult as you age. Even so, I'm looking forward for my next years of learning and exploration.  
 
 ### Images
 
