@@ -13,7 +13,7 @@ $(document).ready(function() {
 
     $("#blog-title-header").html(formattedTitle)
     $("#blog-title-footer").html(formattedTitle)
-    document.title = rawTitle
+    //document.title = rawTitle
 
     console.log("title: " + rawTitle)
 });
