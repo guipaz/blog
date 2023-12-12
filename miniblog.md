@@ -4,7 +4,7 @@ permalink: /miniblog.html
 ---
 
 This is a continuous miniblog with small, recent-first texts regarding nothing and everything.  
-It's just a way I have of writing without worrying about having a full blog post with references and, like, content.
+It's just a way I have of writing without worrying about having a full blog post with references and, like, content.  
 As nothing I do is original, this is inspired by Stuffed Wombat's [blogroll](http://stuffedwomb.at/blogroll){:target="_blank"}.
 
 ---
