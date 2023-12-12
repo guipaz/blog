@@ -18,7 +18,7 @@ On the developing side, I pivoted my management sim to a roguelike. What I got e
 
 Here's a little screenshot of the current state of the project:
 
-![A high-contrast map of a woods with a text history panel.](2023-12-12.png)
+![A high-contrast map of a woods with a text history panel.](assets/images/miniblog/2023-12-12.png)
 
 This is the first time I'm messing with high-contrast, 1-bit pixel art. I got the inspiration both from [Moonring](https://store.steampowered.com/app/2373630/Moonring/){:target="_blank"} and [Kenney's 1-bit Pack](https://kenney.nl/assets/1-bit-pack){:target="_blank"}; you can actually see some of his furniture art being used on the screenshot.
 
