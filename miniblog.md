@@ -9,6 +9,18 @@ As nothing I do is original, this is inspired by Stuffed Wombat's [blogroll](htt
 
 ---
 
+### 2024.01.15
+
+New year, same me. It's been ages since I last worked on anything remotely related to gamedev. The end of last year was marked for me with a pneumonia that brought to light my mild PTSD with being hospitalized due to my cancer treatment times. It was some really shitty weeks and I couldn't focus on anything other than either getting better or dying, depending on my mood.
+
+Today marks the start of the year for me, at least when it comes to being productive. I've setup a "Pomodoro-like" routine to try out and, if everything goes to plan (it usually doesn't) I should have at least some stuff written down in an organized manner.
+
+In regards of my last prototype, it's shelved along with the others of this same solution. It's been a really good thing to create different projects withing the same Visual Studio solution, using the same library, so I can just plug then in and out and test things without having to copy paste a lot of code; every shareable piece of code is in the library.
+
+Anyway, hope I come back with better news the next time I remember I created this blog and sit down to write something.
+
+---
+
 ### 2023.12.12
 
 Things haven't been going as planned; as usual. Even though I have been spending some time developing my project, my health has been taking some hits. I'm dropping the depression meds I've been taking for 4-5 years. It sucks ass. One of them is already gone, but the second one is really messing with my body.
